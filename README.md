@@ -15,9 +15,9 @@ Run these commands in terminal to setup:
 
 Goal: learn about 3rd-party API & gem usage.
 
-*Twitter gem: [https://github.com/sferik/twitter]
-*Twitter gem docs: [http://rdoc.info/gems/twitter]
-*Twitter gem sample usage: [https://github.com/sferik/twitter/tree/master/examples]
+* Twitter gem: https://github.com/sferik/twitter
+* Twitter gem docs: http://rdoc.info/gems/twitter
+* Twitter gem sample usage: https://github.com/sferik/twitter/tree/master/examples
 
 Notes:
 Credentials are read from `credentials.yaml` file into environment variables, then it is used to instantiate the CLIENT.
