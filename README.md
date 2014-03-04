@@ -1,4 +1,21 @@
-#DBC Challenge 313 - Tweet Now! 1: Single User
+#DBC Challenge 313
+##Tweet Now! 1: Single User
+
+Includes local `jQuery` and `jQuery` UI library.
+
+After cloning to local store, run these commands in terminal to setup:
+`bundle update`
+`shotgun`
+
+Goal: learn about 3rd-party API & gem usage.
+
+Twitter gem: https://github.com/sferik/twitter
+Twitter gem docs: http://rdoc.info/gems/twitter
+Twitter gem sample usage: https://github.com/sferik/twitter/tree/master/examples
+
+Important:
+
+<hr>
 
 <div class='tab-pane active' id='objectives'>
 <p>This is the first challenge in a sequence of challenges, leading up to building an application to schedule future tweets and deploying it to Heroku.</p>
@@ -27,9 +44,3 @@
 </ul>
 
 </div>
-
-Includes local `jQuery` and `jQuery` UI library.
-
-After cloning to local store, run these commands in terminal to setup:
-`bundle update`
-`shotgun`
