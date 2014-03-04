@@ -6,7 +6,7 @@ Tweet as @devdandydanny using this telenovela-themed twitter app. Bueno.
 Includes local `jQuery` and `jQuery UI` library.
 
 After cloning to local store:
-Decrypt / decompress credentials.tc into `/config`
+Decrypt / decompress `credentials.tc` into `/config`
 
 Run these commands in terminal to setup:
 
