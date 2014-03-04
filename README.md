@@ -1,9 +1,15 @@
 #DBC Challenge 313
 ##Tweet Now! 1: Single User
 
+Tweet as @devdandydanny using this telenovela-themed twitter app. Bueno.
+
 Includes local `jQuery` and `jQuery` UI library.
 
-After cloning to local store, run these commands in terminal to setup:
+After cloning to local store:
+Decrypt / decompress credentials.tc into `/config`
+
+Run these commands in terminal to setup:
+
 `bundle update`
 `shotgun`
 
@@ -13,7 +19,8 @@ Twitter gem: https://github.com/sferik/twitter
 Twitter gem docs: http://rdoc.info/gems/twitter
 Twitter gem sample usage: https://github.com/sferik/twitter/tree/master/examples
 
-Important:
+Notes:
+Credentials are read from `credentials.yaml` file into environment variables, then it is used to instantiate the CLIENT.
 
 <hr>
 
