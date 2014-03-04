@@ -5,5 +5,6 @@ end
 
 post '/tweet' do
   p params
+  # Do API Call
   CLIENT.update(params["message"]).text
 end

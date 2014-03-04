@@ -5,7 +5,7 @@ body {
   margin: 20px auto;
   width: 600px;
   padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  /*border: 1px dotted black;*/
 }
 
 th {
@@ -15,12 +15,13 @@ th {
 .footer {
   margin: 20px auto;
   width: 600px;
-  text-align: center;
+  /*text-align: center;*/
+  opacity: 0.8  ;
 }
 
 .footer a {
   text-decoration: none;
-  color: purple;
+  color: orange;
 }
 .footer a:hover {
   color: orange;
@@ -32,8 +33,25 @@ h1 {
   font-weight: 100;
 }
 
-.success {
-  background-color: lightgreen;
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+#tweet-input {
+  width: 20em;
+  padding: 0.5em;
+  border: 1px solid gray;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid gray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 0.5em;
 }
 
 /*
